@@ -22,7 +22,7 @@ def calling_action(action):
         del_task = input("Enter the task you want to delete: ")
         if del_task in task_dict:
             task_dict.pop(del_task)
-            print(f"Task '{del_task}' deleted.")
+            print(f"Task '{del_task}' deleted.") 
         else:
             print(f"Task '{del_task}' not found.")
     elif action == 4:
@@ -42,8 +42,6 @@ while True:
     3: Delete task
     4: Mark task as done
     5: Exit
-
-    testing pull
     """)
 
     action = input("Please enter a number: ")
